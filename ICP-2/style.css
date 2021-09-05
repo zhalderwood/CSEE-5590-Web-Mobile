@@ -1,4 +1,13 @@
-.outer{
+body{
+    background-color: #00171b;
+    color: #c4c4c4;
+}
+h1,h2,h3,h4{font-family: "Poor Richard";}
+h1{font-size:250%}
+h2{font-size:180%}
+h3{font-size:140%}
+h4{font-size:110%}
+div.outer{
     width:650px;
     margin:50px auto;
     text-align:center;
@@ -7,10 +16,17 @@
     padding-bottom: 30px;
     font-family: Arial;
 }
-.inner{
+div.inner{
     margin:90px auto;
 }
-.narrow-hr{
+div.bottom{
+    margin-bottom:10px;
+}
+hr{
+    width:auto;
+    margin:25px 50px;
+}
+hr.narrow{
     width:350px;
     margin:auto auto;
 }
@@ -28,14 +44,18 @@ span{
     color:#f00;
     font-weight:bold;
 }
-body{
-    background-color: #00171b;
-    color: #c4c4c4;
+span.footer{
+    color:#c4c4c4;
+    font-weight:bold;
+    font-size:110%;
+    margin:auto 4%;
 }
-hr{
-    width:auto;
-    margin:25px 50px;
-}
-h1{
-    font-family: "Droid Serif"
+footer{
+    width:650px;
+    margin:50px auto;
+    text-align:center;
+    background-color: black;
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-family: "Poor Richard";
 }
