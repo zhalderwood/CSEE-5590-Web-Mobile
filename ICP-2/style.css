@@ -22,6 +22,9 @@ div.inner{
 div.bottom{
     margin-bottom:10px;
 }
+div.img-box{
+    margin:40px auto;
+}
 hr{
     width:auto;
     margin:25px 50px;
