@@ -47,21 +47,29 @@ body {
   opacity: 1;
 }
 
-#sign-in {
-  padding: 8px 11px;
-  background-color: #4285f4;
-  border-radius: 2px;
+#notify{
+  background-image:url("img/tbell.jpg");
+  background-size:cover;
+  border-radius:15px;
+  width:30px;
+  height:30px;
 }
 
-#sign-in-text {
-  color: white !important;
-  font-weight: bold;
-  text-decoration: none !important;
+#signed-in{
+  background-image:url("img/profile.jpg");
+  background-size:cover;
+  border-radius:15px;
+  width:30px;
+  height:30px;
+}
+
+#profile-img{
+  margin:0 auto;
 }
 
 .main-content {
   position: relative;
-  width: 450px;
+  width: 650px;
   height: 250px;
   margin: 0 auto;
   top: 25vh;
@@ -72,15 +80,19 @@ body {
 }
 
 .main-content img {
-  width: 272px;
-  height: 92px;
+  width: 155px;
+  height: fit-content;
+  margin: 1px 1px;
 }
 
 #search-bar {
   position: relative;
-  flex-basis: 100%;
+  flex-basis:100%;
+  max-width:450px;
   height: 40px;
   margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   border-radius: 1px;
   border: solid 1px #DDD;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
@@ -109,7 +121,7 @@ input:focus {
   height: auto;
   z-index: 1;
   bottom: 4px;
-  left: 388px;
+  left: 410px;
 }
 
 .buttons {

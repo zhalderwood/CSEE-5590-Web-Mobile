@@ -1,0 +1,29 @@
+div.main {
+    width:220px;
+    margin:20% auto;
+}
+
+body {background-color: #ffffff;}
+
+td {
+    height:70px;
+    width:70px;
+}
+
+#a {background-color: red;}
+
+#b {background-color: darkslateblue;}
+
+#c {background-color: chartreuse;}
+
+#d {background-color: darkolivegreen;}
+
+#e {background-color: magenta;}
+
+#f {background-color: navy;}
+
+#g {background-color: cyan;}
+
+#h {background-color: greenyellow;}
+
+#i {background-color: chocolate;}
